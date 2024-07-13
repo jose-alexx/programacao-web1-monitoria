@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeira aula de programação web1</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+</head>
+
+<body>
+    <main>
+        <h1>Formulário</h1>
+        <form action="#">
+            <fieldset>
+                <legend>Dados pessoais</legend>
+                <label for="username">Nome</label>
+                <input type="text" id="username"> <br>
+                <label for="endereconame">Endereço</label>
+                <input type="text" id="endereconame"> <br>
+                <label for="cidadename">Cidade</label>
+                <input type="text" id="cidadename"> <br> <!-- Associa a rotulo for com o id -->
+                <label for="estadoname">Estado</label>
+                <select style="width: 120px;">
+                    <option value="saopaulo">São Paulo</option> <!-- Especifica o valor que sera enviado ao server -->
+                    <option value="brasília">Brasília</option>
+                    <option value="manaus">Manaus</option>
+                    <option value="vicosa">Viçosa</option>
+                </select>
+            </fieldset> <br>
+
+            <fieldset>
+                <legend>Dados proficionais</legend>
+                <label for="">Natureza do Cargo</label> <br>
+
+                <input type="radio" id="dadoGerente">
+                <label for="dadoGerente">Gerência</label>
+
+                <input type="radio" id="dadoFormulario">
+                <label for="dadoFormulario">Formulario</label>
+
+                <input type="radio" id="dadoRecepcao">
+                <label for="dadoRecepcao">Recepção</label>
+
+                <input type="radio" id="dadoAdministrativo">
+                <label for="dadoAdministrativo">Administrativo</label>
+
+                <input type="radio" id="dadoJuridico">
+                <label for="dadoJuridico">Juridico</label> <br> <br>
+
+                <label for="">Área de interesse</label> <br>
+
+                <input type="checkbox" id="dadoComputacao">
+                <label for="dadoComputacao">Computação</label>
+
+                <input type="checkbox" id="dadoBiologia">
+                <label for="dadoBiologia">Biologia</label>
+
+                <input type="checkbox" id="dadoMeio_Alimento">
+                <label for="dadoMeio_Alimento">Meio Alimento</label>
+
+                <input type="checkbox" id="dadoEngeraria">
+                <label for="dadoEngeraria">Engenharia</label>
+
+                <input type="checkbox" id="dadoHistoria">
+                <label for="dadoHistoria">História</label> <br> <br>
+
+                <label for="">dffsfffsdsfsf</label>
+
+                <textarea rows="5" cols="48">
+                </textarea>
+            </fieldset>
+        </form> <br>
+
+        <button>Enter</button>
+        <button>Limpar</button>
+    </main>
+</body>
+
+</html>
