@@ -6,15 +6,27 @@
     <title>Segunda aula de programação web1</title>
     <style>
         .container {
-            width: 50%;
+            width: 30%;
             height: 200px; /* Não definir a altura como porcentagem*/
-            border: 1px solid;
+            border: 5px solid red;
+            overflow: scroll; /* Tira a distorção da  imagem "acaba com o conteudo que estrapola a div*/
         }
+        #p1 {
+            margin-bottom: 100px;
+            padding-top: 50px;
+        }
+        .borda {
+            border: solid;
+            display: inline;
+        }
+
     </style>
 </head>
 <body>
     <div class="container">
-        <img src="Imagens/Monkey.D..Luffy.jpg" alt="Imagem de Luffy">
+        <img src="Imagens/Monkey.D..Luffy.jpg" alt="Paisagem ao ar livre">
     </div>
+    <p id="p1" class="borda" style="display: block;">Isso é um parágrafo</p>
+    <span class="borda" style="display: block;">Isso é um span</span>
 </body>
 </html>
