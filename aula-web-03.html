@@ -1,11 +1,113 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Terceira aula de programação web1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Noto Sans", sans-serif;
+            color: #49484d;
+        }
+        body {
+            background-color: #cccccc;
+        }
+        .header__titulo {
+            background-color: #abafd4;
+            text-align: center;
+            color: #040d6a;
+            margin: 0 20px 0 20px;
+        }
+        .header__paragrafo {
+            text-align: center;
+            font-size: 12px;
+        }
+        .main__titulo {
+            background-color: #b6b6b6;
+            text-align: left;
+            color: #040d6a;
+            border-bottom: 2.5px solid #040d6a;
+            padding: 8px;
+        }
+        .main__paragrafo--color {
+            color: #0005c0;
+        }
+        .main__lista--bolonhas {
+            list-style: disc inside;
+        }
+        .main__paragrafo--pequeno {
+            font-size: 12px;
+        }
+        .main__paragrafo--medio {
+            font-size: 15px;
+        }
+        .main__titulo--margem {
+            margin: 40px 20px 12px 20px;
+        }
+        .header__paragrafo--espacamento, .main__paragrafo--espacamento {
+            margin: 14px 20px 14px 20px;
+        }
+        .main__span--espacamento {
+            margin-left: 20px;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding-top: 25px;
+        }
+
+    </style>
 </head>
+
 <body>
-    
+    <div class="container">
+        <header>
+            <h1 class="header__titulo">João da Silva</h1>
+            <p class="header__paragrafo header__paragrafo--espacamento">Brasileiro, solteiro, 30 anos.</p>
+        </header>
+        <main>
+            <h2 class="main__titulo main__titulo--margem">Objetivo</h2>
+            <p class="main__paragrafo--pequeno main__paragrafo--espacamento">Front-End Developer, Desenvolvedor Front End, Webdesigner</p>
+            <h2 class="main__titulo main__titulo--margem">Experiência profissional</h2>
+            <p ><strong><span class="main__paragrafo--color main__span--espacamento">UOL</span> - 12/2014 até 02/2015 - 2 meses</strong></p>
+            <p class="main__paragrafo--medio main__paragrafo--espacamento"><strong>Analista Programador - 2 meses</strong></p>
+            <p class="main__paragrafo--pequeno main__paragrafo--espacamento">Desenvolvimento de aplicações web com HTML, CSS, AngularJS, Javascript, Ajax, Rest, JSON, PHP.</p>
+            <p><strong><span class="main__paragrafo--color main__span--espacamento">Terra</span> - 1 ano</strong></p>
+            <p class="main__paragrafo--medio main__paragrafo--espacamento"><strong>Desenvolvedor Front End - 1 ano</strong></p>
+            <p class="main__paragrafo--pequeno main__paragrafo--espacamento">Atuei como Desenvolvedor Front-End Pleno, participando ativamente em todos os projetos da empresa
+                (aplicação WEB, aplicativo Mobile e Portais).</p>
+            <p class="main__paragrafo--pequeno main__paragrafo--espacamento">rabalhei efetivamente usando tecnologias como HTML5, CSS, AngularJS, Wordpress, PHP, JSON e Javascript.
+            </p>
+            <p><strong><span class="main__paragrafo--color main__span--espacamento">G1</span> - 6 meses</strong></p>
+            <p class="main__paragrafo--medio main__paragrafo--espacamento"><strong>Desenvolvedor Front End - 6 meses</strong></p>
+            <p class="main__paragrafo--pequeno main__paragrafo--espacamento">Trabalhando com portais, landing pages e eCommerce, codando manualmente HTML, CSS, JavaScript, trabalhando diretamente com a equipe de Back-End com PHP.</p>
+            <h2 class="main__titulo main__titulo--margem">Formação</h1>
+            <p class="main__paragrafo--espacamento"><strong>Graduação em Tecnologia da Informação</strong></p>
+            <p class="main__paragrafo--pequeno main__paragrafo--espacamento">01/2010 a 12/2012</p>
+            <p class="main__paragrafo--pequeno main__paragrafo--espacamento">Faculdade qualquer uma</p>
+            <p class="main__paragrafo--espacamento"><strong>Pós-graduação em Projetos computacionais em tecnologias front-end</strong></p>
+            <p class="main__paragrafo--pequeno main__paragrafo--espacamento">08/2014 a 12/2015</p>
+            <p class="main__paragrafo--pequeno main__paragrafo--espacamento">Faculdade qualquer uma</p>
+            <h2 class="main__titulo main__titulo--margem">Cursos / Especializações</h1>
+            <ul class="main__lista--bolonhas main__paragrafo--espacamento">
+                <li class="main__paragrafo--pequeno">Participação no evento Search Masters Brasil - São Paulo (2014).</li>
+                <li class="main__paragrafo--pequeno">Certificação em Google Adwords - Google Partners Weekend (2015);</li>
+            </ul>
+            <p class="main__paragrafo--espacamento"><strong>HTML5</strong></p>
+            <p class="main__paragrafo--pequeno main__paragrafo--espacamento">serfrontend - 40h - 2022</p>
+            <p class="main__paragrafo--espacamento"><strong>Javascript</strong></p>
+            <p class="main__paragrafo--pequeno main__paragrafo--espacamento">serfrontend - 40h - 2022</p>
+            <p class="main__paragrafo--espacamento"><strong>CSS3</strong></p>
+        </main>
+    </div>
 </body>
+
 </html>
