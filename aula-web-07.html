@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Setima aula de programação web1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+
+    <style>
+
+        body {
+            font-family: "Poppins", sans-serif;
+            font-weight: bold;
+        }
+
+        .div_01, .div_02, .div_03 {
+            position: fixed;
+            width: 200px;
+        }
+
+        .div_01 {
+            background-color: #000000;
+            opacity: 0.6;
+            height: 100px;
+            z-index:-1;
+        }
+
+        .div_02 {
+            background-color: #38b6ff;
+            margin: 35px 0 0 32px;
+            height: 100px;
+            z-index:-3;
+        }
+
+        .div_03 {
+            background-color: red;
+            margin: 20px 0 0 52px;
+            opacity: 0.6;
+            height: 122px;
+            z-index:-2;
+        }
+
+        p {
+            margin: 0;
+            position: relative;
+            z-index: -4;
+            font-size: 23px;
+            padding-top: 22px;
+        }
+
+        .div__paragrafo {
+            color: #ffffff;
+            font-size: 12px;
+            text-align: center;
+            padding: 0;
+        }
+
+        .booton {
+            padding: 105px 0 0 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="div_01">
+        <p class="div__paragrafo">Um div na frente! (200px x 100px)</p>
+    </div>
+    <div class="div_02">
+        <p class="div__paragrafo">Um div no fundo! (200px x 100px)</p>
+    </div>
+    <div class="div_03">
+        <p class="div__paragrafo booton">Um div no meio!</p>
+    </div>
+
+    <p>Parágrafo 1</p>
+    <p>Parágrafo 2</p>
+    <p>Parágrafo 3</p>
+    <p>Parágrafo 4</p>
+    <p>Parágrafo 5</p>
+    <p>Parágrafo 6</p>
+    
+    
+</body>
+</html>
