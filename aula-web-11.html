@@ -3,9 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <title>Document</title>
+
+    <style>
+        body {
+            font-family: "Roboto", sans-serif;
+            background-color: #141414;
+            overflow: hidden;
+        }
+        
+        .container {
+            background-color: #1f1f1f;
+            box-sizing: border-box;
+            text-align: center;
+            border-radius: 7px;
+            padding: 35px;
+            margin: 130px auto;
+            width: 330px;
+        }
+
+        img {
+            width: 90px;
+        }
+        
+        ol {
+            margin-top: 60px;
+            width: 100%; 
+            margin: 0 auto; 
+            padding: 0;
+        }
+
+        li {
+            margin-top: 15px;
+            background-color: aquamarine;
+            padding: 10px 0 10px 0;
+            border-radius: 5px;
+            list-style: none;
+            background-color: #323232;
+        }
+        a, p {
+            text-decoration: none;
+            font-size: 13px;
+        }
+        h1 {
+            font-size: 21px;
+            margin: 18px 0 5px 0;
+        }
+        #container__paragrafo1 {
+            color: #bdd964;
+            margin: 5px 0 20px 0;
+        }
+
+        #container__paragrafo2 {
+            margin-bottom: 19px;
+        }
+        .container__text-color {
+            color: #fff;
+        }
+    </style>
+
 </head>
 <body>
+
+    <div class="container">
+        <img src="Imagens/Foto de perfil.png" alt="Foto de Alex">
+        <h1 class="container__text-color">José Alex</h1>
+        <p id="container__paragrafo1"><strong>London, United kingdom</strong></p>
+        <p id="container__paragrafo2" class="container__text-color"> "Front-end developer and avid reader."</p>
+
+        <ol >
+            <li><a href="" class="container__text-color"><strong>GitHub</strong></a></li>
+            <li><a href="" class="container__text-color"><strong>Frontend Mentor</strong></a></li>
+            <li><a href="" class="container__text-color"><strong>Linkedin</strong></a></li>
+            <li><a href="" class="container__text-color"><strong>Twitter</strong></a></li>
+            <li><a href="" class="container__text-color"><strong>Instagram</strong></a></li>
+        </ol>
+    </div>
     
 </body>
 </html>
