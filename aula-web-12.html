@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <title>Document</title>
+
+    <style>
+        body {
+            font-family: "Poppins", sans-serif;
+            box-sizing: border-box;
+            background-color: #f3e5d8;
+            color: #5d5a58;
+        }
+
+        .container {
+            background-color: #fff;
+            box-sizing: border-box;
+            border-radius: 15px;
+            margin: 0px auto;
+            padding: 30px;
+            width: 660px;
+        }
+
+        .container img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .grouptime {
+            background-color: #fff6fe;
+            padding: 30px;
+            margin-top: 30px;
+            border-radius: 10px;
+        }
+
+        .grouptime__subtitulo {
+            margin: 0 auto 0 auto;
+            color: #5d394b;
+        }
+
+        .conainer__lista {
+            padding-bottom: 30px;
+            border-bottom: 1px solid hsl(0, 0%, 89%);
+        }
+
+        .container__section {
+            overflow: hidden;
+            width: 100%;
+            border-bottom: 1px solid hsl(0, 0%, 89%);
+        }
+
+        .container__section--ultimo {
+            overflow: hidden;
+            margin-bottom: 0px;
+            width: 100%;
+        }
+
+        .container__section--value {
+            box-sizing: border-box;
+            margin: 10px 0 0px 0;
+            padding-left: 20px;
+            margin-bottom: 0;
+            float: left;
+            width: 50%;
+        }
+
+        .container--margem {
+            margin-bottom: 10px;
+        }
+
+        ul, ol {
+            margin: 0px;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-top: 13px;
+            padding-left: 15px;
+        }
+
+        .container__font--tanho {
+            font-size: 13px;
+        }
+
+        .container__subtitulo {
+            color: #764941;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="Imagens/imagem taco.png" alt="">
+        <h1>Simple Omelette Recipe</h1>
+        <p class="container__font--tanho">An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked to perfection, optionally filled with your choice of cheese, vegetables, or meats.</p>
+
+        <div class="grouptime">
+            <h3 class="grouptime__subtitulo">Preparation time</h3>
+        <ul class="container__font--tanho">
+            <li><strong>Total</strong> Approximately 10 minutes</li>
+            <li><strong>Preparation</strong> 5 minutes</li>
+            <li><strong>Cooking:</strong> 5 minutes</li>
+        </ul>
+        </div>
+
+        <h2 class="container__subtitulo">Ingredients</h2> 
+        <ul class="conainer__lista container__font--tanho">
+            <li>2-3 large eggs</li>
+            <li>Salt, to taste</li>
+            <li>Pepper, to taste</li>
+            <li>1 tablespoon of butter or oil</li>
+            <li>Optional fillings: cheese, diced vegetables, cooked meats, herbs</li>
+        </ul>
+
+        <h2 class="container__subtitulo">Instructions</h2>
+        <ol class="conainer__lista container__font--tanho">
+            <li><strong>Beat the eggs:</strong> In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. You can add a tablespoon of water or milk for a fluffier texture.</li>
+            <li><strong>Heat the pan:</strong> Place a non-stick frying pan over medium heat and add butter or oil.</li>
+            <li><strong>Cook the omelette:</strong>Cook the omelette: Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure the eggs evenly coat the surface.</li>
+            <li><strong>Add fillings (optional):</strong> When the eggs begin to set at the edges but are still slightly runny in the middle, sprinkle your chosen fillings over one half of the omelette.</li>
+            <li><strong>Fold and serve:</strong> As the omelette continues to cook, carefully lift one edge and fold it over the fillings. Let it cook for another minute, then slide it onto a plate.</li>
+            <li><strong>Enjoy:</strong> Serve hot, with additional salt and pepper if needed.</li>
+        </ol>
+
+        <h2 class="container__subtitulo">Nutrition</h2>
+        <p class="container__font--tanho">The table below shows nutritional values per serving without the additional fillings.</p>
+        
+        <div class="container__section container__font--tanho">
+            <p class="container__section--value container--margem">Calories</p>
+            <p class="container__section--value container--margem"><strong>277kcal</strong></p>
+        </div>
+        <div class="container__section container__font--tanho">
+            <p class="container__section--value container--margem">Carbs</p>
+            <p class="container__section--value container--margem"><strong>0g</strong></p>
+        </div>
+        <div class="container__section container__font--tanho">
+            <p class="container__section--value container--margem">Protein</p>
+            <p class="container__section--value"><strong>20g</strong></p>
+        </div>
+        <div class="container__section--ultimo container__font--tanho">
+            <p class="container__section--value container--margem">Fat</p>
+            <p class="container__section--value"><strong>22g</strong></p>
+        </div>
+    </div>
+    
+</body>
+</html>
