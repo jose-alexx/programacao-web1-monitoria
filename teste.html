@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <title>Document</title>
+
+    <style>
+        body {
+            font-family: "Karla", system-ui;
+            background-color: #e0f1e7;
+            color: #5d5a58;
+        }
+
+        .container__parargrafo {
+            margin-bottom: 24px;
+        }
+
+        .container {
+            background-color: #ffffff;
+            box-sizing: border-box;
+            margin: 0px auto;
+            margin-top: 40px;
+            width: 650px;
+            padding: 30px;
+        }
+
+        .container__form {
+            width: 100%;
+        }
+
+        .container__inputs {
+            box-sizing: border-box;
+            overflow: hidden;
+            width: 100%;
+        }
+
+        .container__group--top {
+            box-sizing: border-box;
+            float: left;
+            width: 48%;
+        }
+
+        .container__group--top + .container__group--top {
+            margin-left: 4%; 
+        }
+
+        .container__group--top:last-child {
+            margin-right: 0;
+        }
+
+        .container__group--top label {
+            display: block;
+        }
+
+        .espacamento--label{
+            margin-bottom: 10px;
+        }
+
+        .container__group--top input {
+            border: 2px solid;
+            border-color: #5d5a58;
+            border-radius: 7px;
+            width: 100%;
+            padding: 15px;
+            box-sizing: border-box;
+        }
+
+        .container__email {
+            margin-top: 25px;
+            margin-bottom: 25px;
+            width: 100%;
+        }
+
+        .container__email-group {
+            background-color: beige;
+            width: 100%;
+        }
+
+        .container__input {
+            border: 2px solid;
+            border-color: #5d5a58;
+            box-sizing: border-box;
+            margin-top: 10px;
+            border-radius: 7px;
+            padding: 15px;
+            width: 100%;
+        }
+
+        .querytype {
+            margin-top: 14px;
+            width: 100%;
+            overflow: hidden;
+        }
+
+        .querytype__group {
+            border: 2px solid;
+            border-color: #5d5a58;
+            float: left;
+            width: 48%;
+            padding: 12px;
+            border-radius: 7px;
+        }
+
+        .querytype__group + .querytype__group {
+            margin-left: 4%;
+        }
+
+        .querytype__group label {
+            display: inline-block;
+            margin-left: 10px;
+        }
+
+        .queryType--color {
+            font-size: 18px;
+        }
+
+        .message {
+            width: 100%;
+        }
+
+        .message__textarea {
+            margin-top: 10px;
+        }
+
+        .message__textarea, textarea {
+            width: 100%;
+        }
+
+        .email__espaco, .checkbox__espaco {
+            margin-bottom: 25px;
+        }
+
+        .checkbox__input {
+            margin-right: 10px;
+        }
+
+        .container__button {
+            background-color: #0c7d69;
+            font-weight: bold;
+            border-radius: 7px;
+            height: 45px;
+            color: #ffffff;
+            border: none;
+            width: 100%;
+        }
+
+        sup {
+            color: #0c7d69;
+        }
+
+        textarea {
+            border: 2px solid;
+            border-radius: 7px;
+            border-color: #5d5a58;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="container__parargrafo">Contact Us</h1>
+        <form action="" class="container__form">
+
+            <div class="container__inputs">
+                <div class="container__group--top">
+                    <label for="firstName" class="espacamento--label">First Name  <sup>*</sup></label>
+                    <input type="text" id="firstName" name="firstName">
+                </div>
+                <div class="container__group--top">
+                    <label for="lastName" class="espacamento--label">Last Name <sup>*</sup></label>
+                    <input type="text" id="lastName" name="lastName">
+                </div>
+            </div>
+
+            <div class="container__email">
+                <label for="emailAddress" class="espacamento--label">Email Address <sup>*</sup></label>
+                <input class="container__input" type="email" id="emailAddress" name="emailAddress">
+            </div>
+
+            <label for="queryType">Query Type <sup>*</sup></label>
+            <div class="querytype">
+                <div class="querytype__group email__espaco">
+                    <input type="radio" id="generalEnquiry" name="queryType" value="general">
+                    <label for="generalEnquiry" class="queryType--color">General Enquiry</label>
+                </div>
+                <div class="querytype__group email__espaco">
+                    <input type="radio" id="supportRequest" name="queryType" value="support">
+                    <label for="supportRequest" class="queryType--color">Support Request</label>
+                </div>
+            </div>
+
+            <div class="message checkbox__espaco">
+                <label for="">Message <sup>*</sup></label>
+                <div class="message__textarea">
+                    <textarea rows="5" name="" id=""></textarea>
+                </div>
+            </div>
+
+            <div class="checkbox checkbox__espaco">
+                <input class="checkbox__input" type="checkbox">
+                <label for="">I consent to being contacted by the tean <sup>*</sup></label>
+            </div>
+            <button class="container__button" type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
