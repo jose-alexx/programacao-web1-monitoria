@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Arquivo Formulário de contato</title>
+</head>
+<body>
+    
+    <div class="container">
+        <h1 class="espacoElements" onsubmit="alert('Formulário enviado!');">Contact Us</h1>
+        <form action="#" method="get" class="container__form">
+
+            <div class="campoNome espacoElements">
+                <div class="campoNome__group espacamentoGroup">
+                    <label for="firstName" class="block">First Name <sup>*</sup></label>
+                    <input type="text" id="firstName" name="firstName" class="tamanhoInput">
+                </div>
+                <div class="campoNome__group espacamentoGroup">
+                    <label for="lastName" class="block">Last Name <sup>*</sup></label>
+                    <input type="text" id="lastName" name="lastName" class="tamanhoInput">
+                </div>
+            </div>
+
+            <div class="espacoElements">
+                <label for="emailaddress" class="block">Email Address <sup>*</sup></label>
+                <input type="email" id="emailaddress" name="emailaddress" class="tamanhoInput">
+            </div>
+
+            <div class="queryType espacoElements">
+                <label>Query Type <sup>*</sup></label>
+                <div class="querytype__elementos">
+                    <div class="querytype__group espacamentoGroup espacamentoQuertType">
+                        <input type="radio" id="generalenquiry" name="queryTypeElement">
+                        <label for="generalenquiry" >General Enquiry</label>
+                    </div>
+                    <div class="querytype__group espacamentoGroup espacamentoQuertType">
+                        <input type="radio" id="supportrequest" name="queryTypeElement">
+                        <label for="supportrequest">Support Request</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="message">
+                <label for="message">Message <sup>*</sup></label>
+                <div class="massage__textarea">
+                    <textarea rows="5" name="message" id="message"></textarea>
+                </div>
+            </div>
+
+            <div class="checkbox">
+                <input type="checkbox" id="checkboxlist" name="checkboxacceptlist">
+                <label for="checkboxacceptlist">I consent to being contacted by the tean</label>
+            </div>
+
+            <button type="submit" onclick="alert('Enviado!');" class="submit">Submit</button>
+        </form>
+    </div>
+    
+</body>
+</html> 

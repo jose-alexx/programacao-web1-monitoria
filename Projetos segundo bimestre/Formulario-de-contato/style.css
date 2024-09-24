@@ -1,0 +1,109 @@
+html, body {
+    background-color: hsl(148, 38%, 91%);
+    font-family: "Karla", sans-serif;
+    color: #5d5a58;
+    font-size: 16px;
+}
+
+.container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 0px auto;
+    padding: 35px;
+    width: 600px;
+}
+
+.container__form {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.campoNome {
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.campoNome__group {
+    width: 48.5%;
+    float: left;
+}
+
+.queryType {
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.querytype__group {
+    padding-left: 20px;
+    font-size: 18px;
+    width: 48.5%;
+    float: left;
+}
+
+.querytype__elementos {
+    margin-top: 16px;
+    width: 100%;
+}
+
+.massage__textarea textarea{
+    border-radius: 6px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.submit {
+    background-color: #0c7d69;
+    border-radius: 6px;
+    color: #ffffff;
+    height: 45px;
+    border: none;
+    width: 100%;
+}
+
+.message {
+    margin-bottom: 30px;
+}
+
+.espacoElements {
+    margin-bottom: 22px;
+}
+
+.submit {
+    margin-top: 30px;
+}
+
+/* Elements */
+
+.espacamentoQuertType {
+    box-sizing: border-box;
+    border-radius: 6px;
+    border: 1px solid;
+    padding: 12px;
+    width: 48.5%;
+}
+
+.espacamentoGroup + .espacamentoGroup {
+    box-sizing: border-box;
+    margin-left: 3%;
+}
+
+.tamanhoInput {
+    box-sizing: border-box;
+    border-radius: 6px;
+    border: 1px solid;
+    padding: 14px;
+    width: 100%;
+    height: 44px;
+}
+
+.block {
+    display: block;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+sup {
+    color: #0c7d69;
+}
