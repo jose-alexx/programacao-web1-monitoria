@@ -1,0 +1,22 @@
+.container {
+    background-color: red;
+    max-width: 500px;
+    overflow: hidden;
+}
+
+img {
+    background-color: rebeccapurple;
+    max-width: 250px;
+    display: block;
+    float: left;
+    width: 100%;
+}
+
+.text {
+    padding: 20px;
+    background-color: aquamarine;
+    height: auto;
+    width: 250px;
+    float: left;
+    
+}
