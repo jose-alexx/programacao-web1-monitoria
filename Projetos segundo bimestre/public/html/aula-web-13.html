@@ -4,8 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aula javascript</title>
+    <script>
+        // alert("Funcionou ");
+        function mudarCor() {
+            //alert("foi");
+
+            let h1 = document.getElementById("titulo");
+            // alert(document.getElementById("titulo"));
+            console.log(h1);
+            h1.style.backgroundColor = "red";
+        }
+        function mudarTexto() {
+            let h1 = document.getElementById("titulo");
+            let input = document.getElementById("entrada");
+            h1.innerText = input.value;
+dedede
+        }
+    </script>
 </head>
 <body>
-    
+    <!-- -->
+
+    <h1 id="titulo" onclick="mudarCor()">Isso é um titulo</h1>
+    <input id="entrada" type="text" onchange="mudarTexto()">
 </body>
 </html>
