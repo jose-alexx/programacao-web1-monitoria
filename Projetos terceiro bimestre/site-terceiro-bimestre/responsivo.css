@@ -1,0 +1,61 @@
+.container {
+    background-color: aqua;
+    width: 100vw;
+    height: 100vh;
+}
+
+@media screen and (max-width: 769px) {
+    .container {
+        background-color: red;
+        width: 100vw;
+        border: 2px;
+    }
+
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px; 
+    }
+
+    .header ul {
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 10px; 
+        width: 100%;
+    }
+
+    .header ul li {
+        flex: 1;
+    }
+
+    .input {
+        width: 100%; /* Faz o campo de pesquisa ocupar toda a largura disponível */
+    }
+}
+
+
+@media screen and (max-width: 425px) {
+    .container {
+        background-color: yellow;
+        width: 100vw;
+        border: 2px;
+    }
+
+    .header {
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .input {
+        width: 100%;
+    }
+
+    .header ul {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .header ul li a {
+        padding: 5px 8px;
+    }
+}
